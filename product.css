@@ -1,0 +1,304 @@
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.overlapping-div {
+	position: absolute;
+	z-index: 1;
+	left: 80px;
+	right: 80px;
+	top: 430px;
+	transition: 0.3s;
+}
+
+.overlapping-search-button {
+	position: absolute;
+	z-index: 1;
+	right: 40px;
+	bottom: -25px;
+	width: 250px;
+	height: 60px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+	transition: 0.3s;
+	background-color: black !important;
+	cursor: pointer;
+}
+
+.overlapping-search-button:hover {
+	bottom: -20px;
+	box-shadow: 7px 14px 30px -10px rgba(0, 0, 0, 0.7);
+}
+
+.search-text {
+	padding-top: 1.1rem;
+	padding-left: 1.5rem;
+}
+
+.arrow-icon-search {
+	margin-left: 4rem;
+}
+.navbar-transparent {
+	background-color: transparent;
+}
+
+.header-image {
+	background-image: url("/assets/paris.jpg");
+	background-size: cover;
+	background-position: center;
+	top: 0;
+}
+
+.custom-font-size {
+	font-size: 0.7rem;
+}
+
+.btn-group-xs > .btn,
+.btn-xs {
+	padding: 0.5rem 1.3rem;
+	font-size: 0.7rem;
+	line-height: 0.5;
+	border-radius: 0.4rem;
+	width: 100px;
+}
+
+.flight-menu-buttons {
+	position: absolute;
+	top: -50px;
+}
+
+.menu-text-item {
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	right: 20px;
+}
+
+.menu-item-flight {
+	background-color: rgba(0, 0, 0, 0.8);
+	transition: 0.3s;
+	cursor: grab;
+}
+
+.menu-item-flight:hover {
+	background-color: rgba(59, 59, 59, 0.781);
+	transition: 0.3s;
+}
+
+.dropdown-item {
+	font-size: small;
+}
+
+.lang-menu-transparent {
+	background-color: transparent;
+	text-align: end;
+	width: 30px;
+	border: none;
+	margin-right: 25px;
+	margin-top: -10px;
+}
+
+.lang-item-transparent:hover {
+	background-color: transparent;
+	font-weight: 900;
+	box-shadow: 18px 25px 70px -15px rgba(0, 0, 0, 0.5);
+}
+
+.flight-menu-dropdown {
+	border: none;
+}
+.flight-menu-item:hover {
+	background-color: transparent;
+	font-weight: 900;
+}
+
+.flight-options {
+	border: #dfdfdf;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+	transition: 0.5s;
+}
+.flight-options:hover {
+	border: #8a8a8a;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 7px 7px 30px -15px rgba(0, 0, 0, 0.5);
+	transition: 0.3s;
+}
+
+.small-text {
+	font-size: xx-small;
+	font-weight: 500;
+}
+.main-text {
+	font-size: x-large;
+	font-weight: 600;
+}
+.date-text {
+	font-size: 20px;
+	font-weight: 600;
+}
+.xsmall-text {
+	font-size: xx-small;
+	font-weight: 500;
+}
+
+.circle-button {
+	width: 50px !important;
+	height: 50px !important;
+	border-radius: 50%;
+	position: relative;
+	left: -20px;
+	margin-right: -60px;
+	margin-top: 13px;
+
+	z-index: 1;
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.circle-button:hover {
+	transition: 0.3s;
+	border: #8a8a8a;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 7px 7px 30px -15px rgba(0, 0, 0, 0.5);
+}
+
+.change-icon {
+	color: #8a8a8a;
+	margin-left: 15px;
+	margin-top: 8px;
+}
+
+.next-prev-button {
+	background-color: transparent;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: xx-small;
+	padding-left: 0px;
+	margin-right: 15px;
+}
+
+.next-prev-button:hover {
+	text-decoration: underline;
+	text-decoration-color: #b8b8b8;
+	text-decoration-line: underline;
+	text-decoration-thickness: 2px;
+}
+
+.footer-link-button {
+	background-color: transparent;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 600;
+	display: inline-block;
+	padding-left: 0px;
+	margin-right: 15px;
+}
+
+.footer-link-button:hover {
+	text-decoration: underline;
+	text-decoration-color: black;
+	text-decoration-line: underline;
+	text-decoration-thickness: 2px;
+}
+
+.date-icon {
+	font-size: 20px;
+}
+
+.logo-circle {
+	background-color: rgba(255, 255, 255, 0.3);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: absolute;
+	top: 4px;
+	left: 75px;
+}
+
+.menu-top-hamburger {
+	background-color: transparent;
+}
+
+.flight-service-button {
+	width: 150px;
+	height: 50px;
+	border-radius: 21px 0 0 0;
+}
+
+.hotel-service-button {
+	width: 150px;
+	height: 50px;
+	margin-left: 150px;
+}
+
+.rent-service-button {
+	width: 150px;
+	height: 50px;
+	border-radius: 0 21px 0 0;
+	margin-left: 300px;
+}
+
+.footer-credit-text {
+	vertical-align: middle;
+	margin: 0 20px 10px 20px;
+	font-size: small;
+}
+
+.footer-credit-box {
+	background-color: #fcfcfc;
+	border-radius: 8px;
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.footer-credit-box:hover {
+	box-shadow: 3px 8px 20px -9px rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 575px) {
+	.menu-top-hamburger {
+		background-color: white;
+		border-radius: 10px;
+		box-shadow: 7px 7px 30px -15px rgba(0, 0, 0, 0.5);
+		padding: 20px;
+		padding-left: 25px;
+	}
+
+	.overlapping-div {
+		position: absolute;
+		z-index: 1;
+		left: 10px;
+		right: 10px;
+		top: 430px;
+		transition: 0.3s;
+	}
+
+	.flight-service-button {
+		width: 100px;
+		height: 50px;
+		font-size: 13px;
+	}
+
+	.hotel-service-button {
+		width: 100px;
+		height: 50px;
+		margin-left: 100px;
+		font-size: 13px;
+	}
+
+	.rent-service-button {
+		width: 130px;
+		height: 50px;
+		border-radius: 0 21px 0 0;
+		margin-left: 200px;
+		font-size: 13px;
+	}
+}
